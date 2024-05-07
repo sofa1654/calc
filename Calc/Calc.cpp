@@ -17,7 +17,7 @@ int main()
 	else if (sign == '*') {
 		std::cout << a * b;
 	}
-	else if (sign == '/') {
+	else if (sign == '/' || sign == ':') {
 		std::cout << a / b;
 	}
 }
